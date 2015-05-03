@@ -4,13 +4,13 @@ require 'rack/contrib/try_static'
 
 use Rack::Deflater
 use Rack::TryStatic,
-root: 'tmp',
-urls: %w[/],
-try: %w[.html index.html /index.html]
+  root: 'tmp',
+  urls: %w[/],
+  try: %w[.html index.html /index.html]
 
 FIVE_MINUTES=300
 
-run lambda{ |env|
+run lambda { |env|
   [
     404,
     {

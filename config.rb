@@ -14,7 +14,7 @@ activate :blog do |blog|
   # blog.taglink = "tags/{tag}.html"
   # blog.layout = "layout"
   # blog.summary_separator = /(READMORE)/
-  # blog.summary_length = 250 
+  # blog.summary_length = 250
   # blog.year_link = "{year}.html"
   # blog.month_link = "{year}/{month}.html"
   # blog.day_link = "{year}/{month}/{day}.html"
@@ -84,7 +84,7 @@ set :js_dir, 'javascripts'
 
 set :images_dir, 'images'
 
-set :build_id, 'tmp'
+set :build_dir, 'tmp'
 
 # Build-specific configuration
 configure :build do
