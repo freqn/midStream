@@ -17,10 +17,14 @@ h6 {
   font-size: $base-font-size;
   line-height: $heading-line-height;
   margin: 0 0 $small-spacing;
+  color: #fffed9;
 }
 
 p {
   margin: 0 0 $small-spacing;
+  color: #fffed9;
+  font-family: cabin, serif;
+  font-size: 1.5em;
 }
 
 a {
@@ -52,4 +56,8 @@ img,
 picture {
   margin: 0;
   max-width: 100%;
+}
+
+ol li {
+  color: #fffed9;
 }

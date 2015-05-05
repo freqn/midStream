@@ -6,3 +6,36 @@
 @import "partials/layout";
 @import "partials/nav";
 @import "partials/footer";
+
+/**** Main Styles ****/
+body {
+  background: #111725;
+  padding: 30px;
+}
+
+.blog-title {
+  font-family: shuriken-std;
+  font-size: 3em;
+  text-transform: none;
+  padding-right: 71%;
+}
+h3 {
+  font-size: 1.5em;
+  font-weight: 100;
+  a {
+    color: orange;
+  }
+}
+#copyright {
+  text-align: center;
+  margin-top: 100px;
+  color: $medium-gray;
+  font-size: 12px;
+}
+
+nav ul:nth-of-type(2){
+  li {
+    display: inline;
+    padding-left: 10px;
+  }
+}
